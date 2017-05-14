@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=QR
+comment1.params=data\ filename
+comment1.target=QR(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getQrCodeData()
+comment3.params=qrCodeData
+comment3.target=void\ setQrCodeData(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getFilePath()
+comment5.params=filePath
+comment5.target=void\ setFilePath(java.lang.String)
+comment6.params=qrCodeData\ filePath\ hintMap\ qrCodeheight\ qrCodewidth
+comment6.target=void\ createQRCode(java.lang.String,\ java.lang.String,\ java.util.Map,\ int,\ int)
+comment6.text=\r\n\ void\ createQRCode()\ Description\:\ This\ method\ writes\ out\ the\ passes\r\n\ qrCodeData\ string\ to\ the\ file\ specified\ in\ the\ current\ directory.\r\n
+comment7.params=filePath\ hintMap
+comment7.target=java.lang.String\ readQRCode(java.lang.String,\ java.util.Map)
+comment7.text=\r\n\ String\ readQRCode()\ Description\:\ Reads\ the\ QR\ data\ from\ the\ image\ and\r\n\ returns\ the\ string\ of\ data\r\n
+numComments=8
